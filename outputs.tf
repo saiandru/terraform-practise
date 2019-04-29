@@ -1,6 +1,6 @@
 #-----storage/outputs.tf---
 
-output "Bucker Name" {
+output "Bucket Name" {
     value = "${module.storage.bucketname}"
 }
 
